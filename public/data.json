@@ -1,74 +1,74 @@
 [
     {
       "id": 1,
-      "name": "GLOCK 17 Gen5",
-      "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/glock.png",
+      "name": "Affenpinscher",
+      "img": "https://cdn2.thedogapi.com/images/BJa4kxc4X.jpg",
       "price": "540"
     },
     {
       "id": 2,
-      "name": "FN 509 Tactical",
-      "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/FN.png",
+      "name": "Afghan Hound",
+      "img": "https://cdn2.thedogapi.com/images/hMyT4CDXR.jpg",
       "price": "900"
     },
     {
       "id": 3,
-      "name": "Kimber Custom 1911",
-      "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/ki%2Cber.png",
+      "name": "African Hunting Dog",
+      "img": "https://cdn2.thedogapi.com/images/rkiByec47.jpg",
       "price": "900"
     },
     {
       "id": 4,
-      "name": "Beretta M9A4 RDO",
-      "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/beretta.png",
+      "name": "Airedale Terrier",
+      "img": "https://cdn2.thedogapi.com/images/1-7cgoZSh.jpg",
       "price": "1000"
     },
     {
       "id": 5,
-      "name": "Beretta A400 Xcel",
-      "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/beretta-shotgun.png",
+      "name": "Akbash Dog",
+      "img": 	"https://cdn2.thedogapi.com/images/26pHT3Qk7.jpg",
       "price": "1720"
     },
     {
       "id": 6,
-      "name": "Benelli M1014",
-      "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/benalim4.png",
+      "name": "Akita",
+      "img": 	"https://cdn2.thedogapi.com/images/BFRYBufpm.jpg",
       "price": "1900"
     },
     {
       "id": 7,
-      "name": "Browning Citori 725",
-      "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/Browning.png",
+      "name": 	"Alapaha Blue Blood Bulldog",
+      "img": "https://cdn2.thedogapi.com/images/33mJ-V3RX.jpg",
       "price": "5430"
     },
     {
       "id": 8,
-      "name": "Winchester SXP",
-      "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/winchester.png",
+      "name": 	"Alaskan Husky",
+      "img": 	"https://cdn2.thedogapi.com/images/-HgpNnGXl.jpg",
       "price": "570"
     },
     {
       "id": 9,
-      "name": "Bergara B-14 HMR",
-      "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/bergara.png",
+      "name": "Alaskan Malamute",
+      "img": 	"https://cdn2.thedogapi.com/images/dW5UucTIW.jpg",
       "price": "970"
     },
     {
       "id": 10,
-      "name": "Smith & Wesson M&P15",
-      "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/S%26WM%26P15.png",
+      "name": 	"American Bulldog",
+      "img": 	"https://cdn2.thedogapi.com/images/pk1AAdloG.jpg",
       "price": "800"
     },
     {
       "id": 11,
-      "name": "Ruger AR-556",
-      "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/RugerAR556.png",
+      "name": "American Bully",
+      "img": 	"https://cdn2.thedogapi.com/images/sqQJDtbpY.jpg",
       "price": "750"
     },
     {
       "id": 12,
-      "name": "Ruger AR-556 MPR",
-      "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/RugerAR556RMP.png",
+      "name": "American Eskimo Dog",
+      "img": 	"https://cdn2.thedogapi.com/images/Bymjyec4m.jpg",
       "price": "880"
     }
   ]
