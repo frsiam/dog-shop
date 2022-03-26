@@ -7,3 +7,15 @@
     grid-template-columns: repeat(3,1fr);
     gap: 15px;
 }
+
+@media screen and (max-width: 576px) {
+    .shop-container{
+        display: grid;
+        grid-template-columns: 4fr 2fr;
+    }
+    .dogs-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 15px;
+    }
+}

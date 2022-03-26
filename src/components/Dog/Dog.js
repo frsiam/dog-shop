@@ -12,7 +12,7 @@ const Dogs = ({dog,addToCart}) => {
                 <h5>Price: ${dog.price}</h5>
             </Card.Body>
             <Card.Footer>
-                <Button onClick={addToCart} size='lg' className='w-100 btn btn-primary'>Add To Cart</Button>
+                <Button onClick={addToCart} size='lg' className='w-100 btn btn-info'>Add To Cart</Button>
             </Card.Footer>
         </Card>
     );
