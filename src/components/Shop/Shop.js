@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import Dog from '../Dog/Dog';
 import Cart from '../Cart/Cart';
 import './Shop.css'
-import { Alert } from 'react-bootstrap';
 
 const Shop = () => {
     const [dogs, setDogs] = useState([])
@@ -23,6 +22,10 @@ const Shop = () => {
             alert('Your selected item is over !')
         }
     }
+    console.log(cart.length)
+    const rNum = (props)=>{
+        console.log(props)
+    }
     return (
         <div className='shop-container'>
             <div className='dogs-container container py-5'>
@@ -38,7 +41,7 @@ const Shop = () => {
                     }
                 </div>
                 <div className='mt-4 ms-2'>
-                    <button className='btn btn-primary me-2'>Choose One</button>
+                    <button onClick={()=>rNum(cart.length)} className='btn btn-primary me-2'>Choose One</button>
                     <button className='btn btn-danger'>Select Again</button>
                 </div>
             </div>
