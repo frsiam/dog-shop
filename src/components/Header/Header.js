@@ -6,7 +6,7 @@ const Header = () => {
         <Navbar bg="dark" variant="dark" className='p-3 justify-content-center'>
             <div>
                 <NavbarBrand href="#home" className='fs-1 fw-bolder text-info text-center'>Dog Shop</NavbarBrand>
-                <h3 className='text-light text-center'>Chose 4 Dogs</h3>
+                <h3 className='text-light text-center'>Choose 4 Dogs</h3>
             </div>
         </Navbar>
     );

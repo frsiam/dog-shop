@@ -22,9 +22,8 @@ const Shop = () => {
             alert('Your selected item is over !')
         }
     }
-    console.log(cart.length)
     const rNum = (props)=>{
-        console.log(props)
+        const nCart = cart[Math.floor(Math.random()*props)]
     }
     return (
         <div className='shop-container'>
@@ -34,10 +33,10 @@ const Shop = () => {
                 }
             </div>
             <div className='cart-container bg- border border-2'>
-                <h1>Total: {cart.length}</h1>
+                <h2 className='text-center'>Total: {cart.length}</h2>
                 <div className='ms-2'>
                     {
-                        cart.map(cartItem => <Cart item={cartItem}></Cart>)
+                        cart.map(cartItem => <Cart key={cartItem.id} item={cartItem}></Cart>)
                     }
                 </div>
                 <div className='mt-4 ms-2'>
