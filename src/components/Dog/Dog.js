@@ -1,10 +1,13 @@
 import React from 'react';
-import { Button, Card, Col, Row } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Card } from 'react-bootstrap';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import './Dog.css'
 
 const Dogs = ({dog,addToCart}) => {
     return (
-        <Card>
-            <Card.Img variant="top" src={dog.img} />
+        <Card className='border border-2 border-warning'>
+            <Card.Img variant="top" src={dog.img} className='p-2 img-fluid h-75'/>
             <Card.Body>
                 <Card.Title>
                     Name: {dog.name}
@@ -12,7 +15,10 @@ const Dogs = ({dog,addToCart}) => {
                 <h5>Price: ${dog.price}</h5>
             </Card.Body>
             <Card.Footer>
-                <Button onClick={addToCart} size='lg' className='w-100 btn btn-info'>Add To Cart</Button>
+                <button onClick={addToCart} className='cart-btn w-100 btn btn-info d-flex justify-content-center align-items-center p-0'>
+                   <p className='me-3 mt-3 align-items-center'>Add To Cart</p>
+                   <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
+                </button>
             </Card.Footer>
         </Card>
     );

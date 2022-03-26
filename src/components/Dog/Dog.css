@@ -1,0 +1,9 @@
+.cart-btn:hover{
+    background-color: orange;
+}
+@media screen and (max-width: 576px) {
+    .cart-btn{
+        color: azure;
+        background-color: black;
+    }
+}

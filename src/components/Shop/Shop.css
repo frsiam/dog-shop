@@ -1,17 +1,23 @@
 .shop-container{
     display: grid;
     grid-template-columns: 4fr 1fr;
+    position: relative;
 }
 .dogs-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 15px;
+    position: relative;
+}
+.cart-container{
+    position: sticky;
+    top: 0;
 }
 
 @media screen and (max-width: 576px) {
     .shop-container{
         display: grid;
-        grid-template-columns: 4fr 2fr;
+        grid-template-columns: 5fr 3fr;
     }
     .dogs-container{
         display: grid;
